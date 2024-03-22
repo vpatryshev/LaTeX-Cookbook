@@ -22,7 +22,7 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/LaTeX-C
 
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
+All the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
@@ -31,6 +31,11 @@ The code will look like the following:
 \end{document}
 
 ```
+
+To build the documents you can either use the tools mentioned in the book,
+or use the script in the root of this repository, `build.sh`. For example, 
+the following command will build the pdf file for the first example in the book:
+`build.sh 01-Exploring-Various-Document-Classes/01-short-text.tex`
 
 **Following is what you need for this book:**
 
