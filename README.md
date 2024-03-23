@@ -32,7 +32,7 @@ The code will look like the following:
 
 ```
 
-To build the documents you can either use the tools mentioned in the book,
+To build the documents, you can either use the tools mentioned in the book,
 or use the script in the root of this repository, `build.sh`. For example, 
 the following command will build the pdf file for the first example in the book:
 `build.sh 01-Exploring-Various-Document-Classes/01-short-text.tex`
