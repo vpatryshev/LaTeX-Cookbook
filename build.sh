@@ -14,6 +14,7 @@ if ! echo ^Z | pdflatex "$1" >/dev/null; then
 fi
 
 rm -f "$name.aux"
+rm -f "$name.out"
 rm -f "$log"
 open "$name.pdf"
 
